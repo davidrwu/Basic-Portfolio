@@ -1,61 +1,61 @@
-.header {
-      margin-left:120px;
-      width:960px;    
-  }	
-
-section {
-  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.name {
+header {
   float:left;
   color:white;     
   background-color:#4aaaa5;
+  margin-left:150px;
   padding:20px;
   font-size:200%; 
-  font-family: 'Georgia', Times, Times New Roman, serif;  
+  font-family: 'Georgia', Times, serif;  
   font-weight:bold;
 }
 
+nav {
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .about {
-  float: left;
+  float:left;
   margin-top:30px;
-  margin-left:270px;
+  margin-left:500px;
   color:#777777;
   text-decoration:none;
 }
 
 .port {
   float: left;
-  margin-left:20px;
-  margin-top:30px;
+  padding-left:10px;
+  margin-left: 10px;
+  margin-top: 30px;
   color:#777777;
   text-decoration:none;
+  border-left:1px solid lightgrey;
 }
 
 .contact {
   float: left;
-  margin-left:20px;
-  margin-top:30px;
+  padding-left:10px;
+  margin-left: 10px;
+  margin-top: 30px;
   color:#777777;
   text-decoration:none;
+  border-left:1px solid lightgrey;
 }
 
 .whole {
   overflow:auto;
   clear:both;
-  width:960px;
   color:#777777;
-  border-bottom-style:solid;
-  border-width:10px;
-  border-bottom-color:#4aaaa5;
   border-top-style:solid;
   border-top-width:2px;
   border-top-color:#cccccc;
-  background-image:url(https://www.toptal.com//designers/subtlepatterns/patterns/ep_naturalwhite.png);
+  background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/hip-square.png);
 }
 
-#me{
+p{
+  line-height: 200%;
+}
+
+.me{
   color:#4aaaa5;
   font-size:180%; 
   font-family: 'Georgia', Times, Times New Roman, serif;  
@@ -64,9 +64,9 @@ section {
 
 .leftside{
   float:left;
-  margin-left:120px;
+  margin-left:150px;
   padding:20px;
-  width: 400px;
+  width: 610px;
   margin-top:20px;
   overflow:auto;
   background-color: #ffffff;
@@ -74,28 +74,41 @@ section {
   border-color:#dddddd;
   border-style:solid;
   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  
- }
+  color:#777777;
+}
 
 .image {
   float:left;
-  padding-right:10px;
+  padding-right:15px;
+  width:280px;
+  height:200px;
 }
 
 .rightside{
   margin-top:20px;
-  margin-left:10px;
+  margin-left:40px;
   padding: 20px;
-  width: 200px; 
+  width: 230px; 
   background-color: #ffffff;
   float:left;
   border-color:#dddddd;
   border-style:solid;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: 'Georgia', Times, serif;
   font-size:130%;
-  overflow:auto;
+  height:130px;
   color:#4aaaa5;
   font-weight:bold;
+}
+
+.connect{
+  margin-top:15px;
+  padding:8px;
+}
+
+.social{
+  padding:3px;
+  width:60px; 
+  height:60px;
 }
 
 footer{
@@ -104,6 +117,100 @@ footer{
   text-align:center;
   background-color:#666666;
   border-color:teal;
-  width:920px;
-  color:#777777;
+  color:lightgrey;
+  border-top:solid;
+  border-top-color:#4aaaa5;
+  border-width:5px;
+}
+
+.thumbnail {
+  float:left;
+  margin-bottom: 20px;
+  width:265px;
+  height:210px;
+}
+
+.spacing {
+  float: right;
+}
+
+.hangman {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:164px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+.rpg {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:164px;
+  left:325px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.trivia {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:395px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rutgers {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:395px;
+  left:325px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+.rps {
+  position:absolute;
+  background-color:#4aaaa5;
+  top:625px;
+  left:20px;
+  width:265px;
+  padding:20 0 20 0;
+  text-align:center;
+}
+
+.relative {
+  position:relative;
+  color:white;
+  padding:20px;
+  font-family: 'Georgia', Times, serif;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+  border: 1px solid lightgrey;
+  width:100%;
+  height: 100px;
+  margin-top:8px;
+  margin-bottom:10px;
+}
+
+input[type=submit] {
+  padding:10px;
+  width:130px;
+  color: white;
+  border:0;
+  background-color:#4aaaa5;
 }
